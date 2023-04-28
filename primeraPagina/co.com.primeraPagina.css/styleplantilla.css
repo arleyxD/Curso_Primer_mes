@@ -2,10 +2,32 @@ html,body {
     margin: 0;
 }
 
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+} 
+
 #text1{
-    background-color: aliceblue;
+    background-color: green;
     color: aquamarine;
     font-size: 3rem;
     text-align: center;
     padding: 2rem;
+    margin-top: 0;
 }
+
+#logo img {
+    width: 10rem;
+}
+div#logo {
+    display: flex;
+    flex-direction: column;
+}
+
+input#search {
+    padding: 0.4rem 17rem 0rem 0rem;
+}
+
