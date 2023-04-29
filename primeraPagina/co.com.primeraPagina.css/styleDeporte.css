@@ -1,5 +1,5 @@
 body{
-    background-color: antiquewhite;
+    background-color: blueviolet;
 }
 header{
     background-color: aqua;
@@ -8,8 +8,12 @@ main{
     background-color: bisque;
 }
 aside{
-    background-color: blueviolet;
+    background-color: aqua;
 }
 footer{
     background-color: beige;
+}
+
+.content {
+    display: flex;
 }
