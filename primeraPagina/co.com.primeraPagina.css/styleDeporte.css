@@ -14,6 +14,42 @@ footer{
     background-color: beige;
 }
 
+
+/*
 .content {
     display: flex;
+}*/
+
+.content{
+    color: brown;
+}
+
+@media(min-width : 567px){
+    .content {
+        display: flex;
+        color: aqua;
+    }
+    ul.menu-principal {
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        gap: 1rem;
+        padding: 1rem 3rem;
+    }
+    
+}
+
+
+@media(min-width : 768px){
+    .content {
+        color: rgb(0, 255, 42);
+    }
+    ul.menu-principal {
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        gap: 1rem;
+        padding: 1rem 3rem;
+    }
+    
 }

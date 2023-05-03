@@ -1,0 +1,17 @@
+body{
+
+    background-image: url(../co.com.primeraPagina.img/fondo-cuadricula-digital-abstracto-negro.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header{
+  background-color:#050b15;
+}
+
+h1{
+
+  color: aliceblue;
+
+}
