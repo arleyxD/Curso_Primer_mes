@@ -20,6 +20,8 @@ footer{
     display: flex;
 }*/
 
+
+
 .content{
     color: brown;
 }
@@ -52,4 +54,10 @@ footer{
         padding: 1rem 3rem;
     }
     
+}
+
+.container {
+    max-width: 59rem;
+    width: 54%;
+    margin: auto;
 }
